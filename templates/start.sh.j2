@@ -1,0 +1,33 @@
+#!/bin/bash
+
+echo "========================================"
+echo " AI Environment - Application Launcher"
+echo "========================================"
+
+PS3="
+Please select an application to start: "
+
+select opt in {% for app in selected_apps %}"{{ app.name }}" {% endfor %}"Quit"; do
+    case $opt in
+        {% for app in selected_apps %}
+"{{ app.name }}")
+            echo "Starting {{ app.name }}..."
+            cd "${{ app.env_var_name }}"
+            {{ app.start_command | default('# No start_command defined in applications.json') }}
+            break
+            ;;
+        {% endfor %}
+"Quit")
+            echo "Exiting."
+            break
+            ;;
+        *) 
+            echo "Invalid option $REPLY"
+            ;;
+    esac
+done
+
+# If a webui was started, keep the container running
+if [[ "$opt" != "Quit" ]]; then
+    echo "Application has exited. The container will now stop. To restart, use 'docker start -i <container_name>'."
+fi

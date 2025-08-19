@@ -1,0 +1,333 @@
+{
+  "nvidia": [
+    {
+      "name": "CUDA 13.0.0 + cuDNN",
+      "docker_base_image": "nvidia/cuda:13.0.0-cudnn-devel-ubuntu22.04",
+      "cuda_version": "13.0.0",
+      "cudnn_version": "9.0",
+      "torch_options": [
+        "--pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu130"
+      ],
+      "xformers_options": [
+        "--pre xformers --index-url https://download.pytorch.org/whl/nightly"
+      ],
+      "notes": "CUDA 13 for latest NVIDIA features."
+    },
+    {
+      "name": "CUDA 12.9.0 + cuDNN",
+      "docker_base_image": "nvidia/cuda:12.9.0-cudnn-devel-ubuntu22.04",
+      "cuda_version": "12.9.0",
+      "cudnn_version": "9.0",
+      "torch_options": [
+        "--pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129"
+      ],
+      "xformers_options": [
+        "--pre xformers --index-url https://download.pytorch.org/whl/nightly"
+      ],
+      "notes": "Latest available CUDA version."
+    },
+    {
+      "name": "CUDA 12.8.1 + cuDNN",
+      "docker_base_image": "nvidia/cuda:12.8.1-cudnn-devel-ubuntu22.04",
+      "cuda_version": "12.8.1",
+      "cudnn_version": "9.0",
+      "torch_options": [
+        "torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cu128",
+        "--pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128"
+      ],
+      "xformers_options": [
+        "xformers==0.0.27.post2",
+        "--pre xformers --index-url https://download.pytorch.org/whl/nightly"
+      ],
+      "notes": "Recent stable CUDA version."
+    },
+    {
+      "name": "CUDA 12.6.2 + cuDNN (Recommended)",
+      "docker_base_image": "nvidia/cuda:12.6.2-cudnn-devel-ubuntu22.04",
+      "cuda_version": "12.6.2",
+      "cudnn_version": "9.0",
+      "torch_options": [
+        "torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu126",
+        "torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cu126",
+        "torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https://download.pytorch.org/whl/cu126",
+        "torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 --index-url https://download.pytorch.org/whl/cu126",
+        "--pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu126"
+      ],
+      "xformers_options": [
+        "xformers==0.0.27.post2",
+        "xformers==0.0.26.post1",
+        "xformers==0.0.25",
+        "--pre xformers --index-url https://download.pytorch.org/whl/nightly"
+      ],
+      "notes": "Latest stable with optimized cuDNN 9.0"
+    },
+    {
+      "name": "CUDA 12.4.1 + cuDNN",
+      "docker_base_image": "nvidia/cuda:12.4.1-cudnn-devel-ubuntu22.04",
+      "cuda_version": "12.4.1",
+      "cudnn_version": "8.9",
+      "torch_options": [
+        "torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu124",
+        "torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cu124",
+        "torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https://download.pytorch.org/whl/cu124",
+        "torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 --index-url https://download.pytorch.org/whl/cu124",
+        "--pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu124"
+      ],
+      "xformers_options": [
+        "xformers==0.0.27.post2",
+        "xformers==0.0.26.post1",
+        "xformers==0.0.25",
+        "--pre xformers --index-url https://download.pytorch.org/whl/nightly"
+      ],
+      "notes": "Stable for RTX 40/30 series"
+    },
+    {
+      "name": "CUDA 12.1 + cuDNN 8.8",
+      "docker_base_image": "nvidia/cuda:12.1.1-cudnn8-devel-ubuntu22.04",
+      "cuda_version": "12.1",
+      "cudnn_version": "8.8",
+      "torch_options": [
+        "torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu121",
+        "torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cu121",
+        "torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https://download.pytorch.org/whl/cu121",
+        "torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 --index-url https://download.pytorch.org/whl/cu121",
+        "--pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu121"
+      ],
+      "xformers_options": [
+        "xformers==0.0.27.post2",
+        "xformers==0.0.26.post1",
+        "xformers==0.0.25",
+        "--pre xformers --index-url https://download.pytorch.org/whl/nightly"
+      ],
+      "notes": "Widely compatible stable version"
+    },
+    {
+      "name": "CUDA 11.8 + cuDNN 8.7",
+      "docker_base_image": "nvidia/cuda:11.8.0-cudnn8-devel-ubuntu22.04",
+      "cuda_version": "11.8",
+      "cudnn_version": "8.7",
+      "torch_options": [
+        "torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu118",
+        "torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cu118",
+        "torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https://download.pytorch.org/whl/cu118",
+        "torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 --index-url https://download.pytorch.org/whl/cu118",
+        "torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu118",
+        "--pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu118"
+      ],
+      "xformers_options": [
+        "xformers==0.0.27.post2",
+        "xformers==0.0.26.post1",
+        "xformers==0.0.25",
+        "xformers==0.0.24",
+        "--pre xformers --index-url https://download.pytorch.org/whl/nightly"
+      ],
+      "notes": "For older GPUs (GTX 16/10 series)"
+    },
+    {
+        "name": "Nightly (based on latest CUDA)",
+        "docker_base_image": "nvidia/cuda:13.0.0-cudnn-devel-ubuntu22.04",
+        "cuda_version": "13.0.0",
+        "cudnn_version": "9.0",
+        "torch_options": [
+            "--pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu130"
+        ],
+        "xformers_options": [
+            "--pre xformers --index-url https://download.pytorch.org/whl/nightly"
+        ],
+        "notes": "Nightly builds for bleeding-edge features. May be unstable."
+    }
+  ],
+  "amd": [
+    {
+      "name": "ROCm 6.2 (Recommended)",
+      "docker_base_image": "rocm/pytorch:rocm6.2_ubuntu22.04_py3.10_torch_2.4.0",
+      "rocm_version": "6.2",
+      "torch_options": [
+        "torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/rocm6.2",
+        "torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/rocm6.2",
+        "torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https://download.pytorch.org/whl/rocm6.1",
+        "torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 --index-url https://download.pytorch.org/whl/rocm6.0",
+        "--pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/rocm6.2"
+      ],
+      "attention_package": "flash-attn --no-build-isolation",
+      "attention_options": [
+        "flash-attn --no-build-isolation",
+        "triton",
+        "None"
+      ],
+      "notes": "Latest ROCm for RX 7000/6000 series"
+    },
+    {
+      "name": "ROCm 6.1",
+      "docker_base_image": "rocm/pytorch:rocm6.1_ubuntu22.04_py3.10_torch_2.3.0",
+      "rocm_version": "6.1",
+      "torch_options": [
+        "torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/rocm6.1",
+        "torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https://download.pytorch.org/whl/rocm6.1",
+        "torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 --index-url https://download.pytorch.org/whl/rocm6.0",
+        "--pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/rocm6.1"
+      ],
+      "attention_package": "flash-attn --no-build-isolation",
+      "attention_options": [
+        "flash-attn --no-build-isolation",
+        "triton",
+        "None"
+      ],
+      "notes": "Stable for most AMD GPUs"
+    },
+    {
+      "name": "ROCm 6.0",
+      "docker_base_image": "rocm/pytorch:rocm6.0_ubuntu22.04_py3.10_torch_2.2.0",
+      "rocm_version": "6.0",
+      "torch_options": [
+        "torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/rocm6.0",
+        "torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 --index-url https://download.pytorch.org/whl/rocm6.0",
+        "torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/rocm5.7",
+        "--pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/rocm6.0"
+      ],
+      "attention_package": "flash-attn --no-build-isolation",
+      "attention_options": [
+        "flash-attn --no-build-isolation",
+        "triton",
+        "None"
+      ],
+      "notes": "Long-term stable version"
+    },
+    {
+      "name": "ROCm 5.7 (Legacy)",
+      "docker_base_image": "rocm/pytorch:rocm5.7_ubuntu22.04_py3.10_torch_2.0.1",
+      "rocm_version": "5.7",
+      "torch_options": [
+        "torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/rocm5.7",
+        "torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/rocm5.7",
+        "torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/rocm5.6"
+      ],
+      "attention_package": "None",
+      "attention_options": [
+        "None",
+        "triton"
+      ],
+      "notes": "For older AMD GPUs (RX 5000/Vega series)"
+    },
+    {
+        "name": "ROCm Nightly",
+        "docker_base_image": "rocm/pytorch-nightly:latest",
+        "rocm_version": "nightly",
+        "torch_options": [
+            "--pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/rocm"
+        ],
+        "attention_package": "flash-attn --no-build-isolation",
+        "attention_options": [
+            "flash-attn --no-build-isolation",
+            "triton",
+            "None"
+        ],
+        "notes": "Nightly builds for bleeding-edge features. May be unstable."
+    }
+  ],
+  "intel": [
+    {
+      "name": "Intel XPU 2024.2 (Recommended)",
+      "docker_base_image": "intel/intel-extension-for-pytorch:2.4.0-xpu",
+      "oneapi_version": "2024.2",
+      "torch_options": [
+        "torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0",
+        "torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1",
+        "torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1",
+        "--pre torch torchvision torchaudio"
+      ],
+      "attention_package": "intel_extension_for_pytorch==2.4.0",
+      "attention_options": [
+        "intel_extension_for_pytorch==2.4.0",
+        "intel_extension_for_pytorch==2.3.0",
+        "--pre intel_extension_for_pytorch"
+      ],
+      "notes": "For Arc A-series and Iris Xe"
+    },
+    {
+      "name": "Intel XPU 2024.1",
+      "docker_base_image": "intel/intel-extension-for-pytorch:2.3.0-xpu",
+      "oneapi_version": "2024.1",
+      "torch_options": [
+        "torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0",
+        "torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1",
+        "torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2",
+        "--pre torch torchvision torchaudio"
+      ],
+      "attention_package": "intel_extension_for_pytorch==2.3.0",
+      "attention_options": [
+        "intel_extension_for_pytorch==2.3.0",
+        "intel_extension_for_pytorch==2.2.0",
+        "--pre intel_extension_for_pytorch"
+      ],
+      "notes": "Stable for most Intel GPUs"
+    },
+    {
+        "name": "Intel oneAPI Nightly",
+        "docker_base_image": "intel/intel-extension-for-pytorch:latest",
+        "oneapi_version": "nightly",
+        "torch_options": [
+            "--pre torch torchvision torchaudio",
+            "--pre intel_extension_for_pytorch"
+        ],
+        "attention_package": "intel_extension_for_pytorch",
+        "attention_options": [
+            "intel_extension_for_pytorch",
+            "None"
+        ],
+        "notes": "Nightly builds for bleeding-edge features. May be unstable."
+    },
+    {
+      "name": "Intel CPU Optimized",
+      "docker_base_image": "intel/intel-optimized-pytorch:2.4.0-pip-multinode",
+      "oneapi_version": "2024.2",
+      "torch_options": [
+        "torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0",
+        "torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1",
+        "torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1",
+        "--pre torch torchvision torchaudio"
+      ],
+      "attention_package": "intel_extension_for_pytorch",
+      "attention_options": [
+        "intel_extension_for_pytorch",
+        "None"
+      ],
+      "notes": "Optimized for Intel CPUs only"
+    }
+  ],
+  "cpu": [
+    {
+      "name": "CPU Standard (Recommended)",
+      "docker_base_image": "ubuntu:24.04",
+      "torch_options": [
+        "torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cpu",
+        "torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cpu",
+        "torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https://download.pytorch.org/whl/cpu",
+        "torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 --index-url https://download.pytorch.org/whl/cpu",
+        "--pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cpu"
+      ],
+      "attention_package": "None",
+      "attention_options": [
+        "None"
+      ],
+      "notes": "CPU-only, significantly slower than GPU"
+    },
+    {
+      "name": "CPU with OpenMP Optimization",
+      "docker_base_image": "ubuntu:24.04",
+      "torch_options": [
+        "torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cpu",
+        "torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cpu",
+        "torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https://download.pytorch.org/whl/cpu",
+        "torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 --index-url https://download.pytorch.org/whl/cpu",
+        "--pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cpu"
+      ],
+      "attention_package": "None",
+      "attention_options": [
+        "None"
+      ],
+      "extra_packages": "libomp-dev",
+      "notes": "Optimized for multi-core CPUs"
+    }
+  ]
+}

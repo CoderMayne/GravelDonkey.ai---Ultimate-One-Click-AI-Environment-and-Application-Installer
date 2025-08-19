@@ -1,0 +1,662 @@
+[
+  {
+    "name": "ChatGPT",
+    "category": "Chatbots & Virtual Companions",
+    "repo": "https://github.com/openai/chatgpt",
+    "notes": "Advanced language model for conversation and text generation"
+  },
+  {
+    "name": "Claude",
+    "category": "Chatbots & Virtual Companions", 
+    "repo": "https://github.com/anthropics/anthropic-cookbook",
+    "notes": "AI assistant focused on helpful, harmless, and honest responses"
+  },
+  {
+    "name": "Stable Diffusion",
+    "category": "Image Generation & Editing",
+    "repo": "https://github.com/CompVis/stable-diffusion",
+    "notes": "Text-to-image generation model"
+  },
+  {
+    "name": "Midjourney",
+    "category": "Image Generation & Editing",
+    "repo": "https://github.com/midjourney/midjourney",
+    "notes": "AI art generation platform"
+  },
+  {
+    "name": "DALL-E",
+    "category": "Image Generation & Editing",
+    "repo": "https://github.com/openai/DALL-E",
+    "notes": "OpenAI's text-to-image generation model"
+  },
+  {
+    "name": "Whisper",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/openai/whisper",
+    "notes": "Speech recognition and transcription model"
+  },
+  {
+    "name": "GPT-4",
+    "category": "Writing & Editing",
+    "repo": "https://github.com/openai/gpt-4",
+    "notes": "Advanced language model for text generation and analysis"
+  },
+  {
+    "name": "BERT",
+    "category": "Writing & Editing",
+    "repo": "https://github.com/google-research/bert",
+    "notes": "Bidirectional transformer for language understanding"
+  },
+  {
+    "name": "T5",
+    "category": "Writing & Editing",
+    "repo": "https://github.com/google-research/t5",
+    "notes": "Text-to-text transfer transformer"
+  },
+  {
+    "name": "RoBERTa",
+    "category": "Writing & Editing",
+    "repo": "https://github.com/pytorch/fairseq",
+    "notes": "Robustly optimized BERT pretraining approach"
+  },
+  {
+    "name": "YOLO",
+    "category": "Image Analysis",
+    "repo": "https://github.com/ultralytics/yolov5",
+    "notes": "Real-time object detection"
+  },
+  {
+    "name": "ResNet",
+    "category": "Image Analysis",
+    "repo": "https://github.com/KaimingHe/deep-residual-networks",
+    "notes": "Deep residual learning for image recognition"
+  },
+  {
+    "name": "EfficientNet",
+    "category": "Image Analysis",
+    "repo": "https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet",
+    "notes": "Efficient CNN architecture"
+  },
+  {
+    "name": "Vision Transformer",
+    "category": "Image Analysis",
+    "repo": "https://github.com/google-research/vision_transformer",
+    "notes": "Transformer architecture for computer vision"
+  },
+  {
+    "name": "Swin Transformer",
+    "category": "Image Analysis",
+    "repo": "https://github.com/microsoft/Swin-Transformer",
+    "notes": "Hierarchical vision transformer"
+  },
+  {
+    "name": "Detectron2",
+    "category": "Image Analysis",
+    "repo": "https://github.com/facebookresearch/detectron2",
+    "notes": "Facebook's object detection platform"
+  },
+  {
+    "name": "MMDetection",
+    "category": "Image Analysis",
+    "repo": "https://github.com/open-mmlab/mmdetection",
+    "notes": "OpenMMLab detection toolbox"
+  },
+  {
+    "name": "OpenPose",
+    "category": "Image Analysis",
+    "repo": "https://github.com/CMU-Perceptual-Computing-Lab/openpose",
+    "notes": "Real-time multi-person keypoint detection"
+  },
+  {
+    "name": "MediaPipe",
+    "category": "Image Analysis",
+    "repo": "https://github.com/google/mediapipe",
+    "notes": "Cross-platform ML solutions"
+  },
+  {
+    "name": "Face Recognition",
+    "category": "Image Analysis",
+    "repo": "https://github.com/ageitgey/face_recognition",
+    "notes": "Simple face recognition library"
+  },
+  {
+    "name": "DeepFace",
+    "category": "Image Analysis",
+    "repo": "https://github.com/serengil/deepface",
+    "notes": "Deep learning face recognition library"
+  },
+  {
+    "name": "InsightFace",
+    "category": "Image Analysis",
+    "repo": "https://github.com/deepinsight/insightface",
+    "notes": "State-of-the-art face recognition"
+  },
+  {
+    "name": "ArcFace",
+    "category": "Image Analysis",
+    "repo": "https://github.com/deepinsight/insightface",
+    "notes": "Additive angular margin loss for face recognition"
+  },
+  {
+    "name": "FaceNet",
+    "category": "Image Analysis",
+    "repo": "https://github.com/davidsandberg/facenet",
+    "notes": "Face recognition using deep learning"
+  },
+  {
+    "name": "RetinaFace",
+    "category": "Image Analysis",
+    "repo": "https://github.com/deepinsight/insightface",
+    "notes": "Single-stage dense face localization"
+  },
+  {
+    "name": "MTCNN",
+    "category": "Image Analysis",
+    "repo": "https://github.com/ipazc/mtcnn",
+    "notes": "Multi-task cascaded convolutional networks"
+  },
+  {
+    "name": "BlazeFace",
+    "category": "Image Analysis",
+    "repo": "https://github.com/google/mediapipe",
+    "notes": "Real-time face detection"
+  },
+  {
+    "name": "U-Net",
+    "category": "Image Analysis",
+    "repo": "https://github.com/milesial/Pytorch-UNet",
+    "notes": "Convolutional networks for biomedical image segmentation"
+  },
+  {
+    "name": "DeepLab",
+    "category": "Image Analysis",
+    "repo": "https://github.com/tensorflow/models/tree/master/research/deeplab",
+    "notes": "Semantic image segmentation"
+  },
+  {
+    "name": "Mask R-CNN",
+    "category": "Image Analysis",
+    "repo": "https://github.com/matterport/Mask_RCNN",
+    "notes": "Object instance segmentation"
+  },
+  {
+    "name": "SegNet",
+    "category": "Image Analysis",
+    "repo": "https://github.com/alexgkendall/caffe-segnet",
+    "notes": "Deep convolutional encoder-decoder architecture"
+  },
+  {
+    "name": "PSPNet",
+    "category": "Image Analysis",
+    "repo": "https://github.com/hszhao/PSPNet",
+    "notes": "Pyramid scene parsing network"
+  },
+  {
+    "name": "FCN",
+    "category": "Image Analysis",
+    "repo": "https://github.com/shelhamer/fcn.berkeleyvision.org",
+    "notes": "Fully convolutional networks for semantic segmentation"
+  },
+  {
+    "name": "Pix2Pix",
+    "category": "Image Generation & Editing",
+    "repo": "https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix",
+    "notes": "Image-to-image translation with conditional GANs"
+  },
+  {
+    "name": "CycleGAN",
+    "category": "Image Generation & Editing",
+    "repo": "https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix",
+    "notes": "Unpaired image-to-image translation"
+  },
+  {
+    "name": "StyleGAN",
+    "category": "Image Generation & Editing",
+    "repo": "https://github.com/NVlabs/stylegan",
+    "notes": "Generative adversarial networks for image generation"
+  },
+  {
+    "name": "StyleGAN2",
+    "category": "Image Generation & Editing",
+    "repo": "https://github.com/NVlabs/stylegan2",
+    "notes": "Improved StyleGAN architecture"
+  },
+  {
+    "name": "StyleGAN3",
+    "category": "Image Generation & Editing",
+    "repo": "https://github.com/NVlabs/stylegan3",
+    "notes": "Alias-free generative adversarial networks"
+  },
+  {
+    "name": "BigGAN",
+    "category": "Image Generation & Editing",
+    "repo": "https://github.com/ajbrock/BigGAN-PyTorch",
+    "notes": "Large scale GAN training"
+  },
+  {
+    "name": "ProGAN",
+    "category": "Image Generation & Editing",
+    "repo": "https://github.com/tkarras/progressive_growing_of_gans",
+    "notes": "Progressive growing of GANs"
+  },
+  {
+    "name": "WGAN",
+    "category": "Image Generation & Editing",
+    "repo": "https://github.com/martinarjovsky/WassersteinGAN",
+    "notes": "Wasserstein GAN"
+  },
+  {
+    "name": "DCGAN",
+    "category": "Image Generation & Editing",
+    "repo": "https://github.com/eriklindernoren/PyTorch-GAN",
+    "notes": "Deep convolutional GAN"
+  },
+  {
+    "name": "GAN",
+    "category": "Image Generation & Editing",
+    "repo": "https://github.com/goodfeli/adversarial",
+    "notes": "Generative adversarial networks"
+  },
+  {
+    "name": "VAE",
+    "category": "Image Generation & Editing",
+    "repo": "https://github.com/pytorch/examples/tree/master/vae",
+    "notes": "Variational autoencoder"
+  },
+  {
+    "name": "Beta-VAE",
+    "category": "Image Generation & Editing",
+    "repo": "https://github.com/1Konny/Beta-VAE",
+    "notes": "Learning basic visual concepts with a constrained variational framework"
+  },
+  {
+    "name": "VQ-VAE",
+    "category": "Image Generation & Editing",
+    "repo": "https://github.com/deepmind/sonnet",
+    "notes": "Neural discrete representation learning"
+  },
+  {
+    "name": "DALL-E 2",
+    "category": "Image Generation & Editing",
+    "repo": "https://github.com/openai/DALL-E-2",
+    "notes": "Hierarchical text-conditional image generation"
+  },
+  {
+    "name": "Imagen",
+    "category": "Image Generation & Editing",
+    "repo": "https://github.com/google-research/imagen",
+    "notes": "Text-to-image diffusion models"
+  },
+  {
+    "name": "Parti",
+    "category": "Image Generation & Editing",
+    "repo": "https://github.com/google-research/parti",
+    "notes": "Scaling autoregressive models for image generation"
+  },
+  {
+    "name": "Make-A-Scene",
+    "category": "Image Generation & Editing",
+    "repo": "https://github.com/meta-ai/make-a-scene",
+    "notes": "Meta's text-to-image generation model"
+  },
+  {
+    "name": "CogView",
+    "category": "Image Generation & Editing",
+    "repo": "https://github.com/THUDM/CogView",
+    "notes": "Text-to-image generation with transformers"
+  },
+  {
+    "name": "GLIDE",
+    "category": "Image Generation & Editing",
+    "repo": "https://github.com/openai/glide-text2im",
+    "notes": "Text-to-image generation with diffusion models"
+  },
+  {
+    "name": "Latent Diffusion",
+    "category": "Image Generation & Editing",
+    "repo": "https://github.com/CompVis/latent-diffusion",
+    "notes": "High-resolution image synthesis with latent diffusion models"
+  },
+  {
+    "name": "ControlNet",
+    "category": "Image Generation & Editing",
+    "repo": "https://github.com/lllyasviel/ControlNet",
+    "notes": "Adding conditional control to text-to-image diffusion models"
+  },
+  {
+    "name": "Composer",
+    "category": "Music & Audio",
+    "repo": "https://github.com/magenta/magenta",
+    "notes": "Google's music and art generation with machine learning"
+  },
+  {
+    "name": "MuseNet",
+    "category": "Music & Audio",
+    "repo": "https://github.com/openai/musenet",
+    "notes": "Deep neural network that generates 4-minute musical compositions"
+  },
+  {
+    "name": "Jukebox",
+    "category": "Music & Audio",
+    "repo": "https://github.com/openai/jukebox",
+    "notes": "Neural net that generates music, including rudimentary singing"
+  },
+  {
+    "name": "WaveNet",
+    "category": "Music & Audio",
+    "repo": "https://github.com/deepmind/wavenet",
+    "notes": "Generative model for raw audio"
+  },
+  {
+    "name": "SampleRNN",
+    "category": "Music & Audio",
+    "repo": "https://github.com/soroushmehr/sampleRNN_ICLR2017",
+    "notes": "An unconditional end-to-end neural audio generation model"
+  },
+  {
+    "name": "Tacotron",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/google/tacotron",
+    "notes": "End-to-end speech synthesis"
+  },
+  {
+    "name": "Tacotron 2",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/NVIDIA/tacotron2",
+    "notes": "Natural TTS synthesis by conditioning WaveNet on mel spectrogram predictions"
+  },
+  {
+    "name": "FastSpeech",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/ming024/FastSpeech",
+    "notes": "Fast, robust and controllable text to speech"
+  },
+  {
+    "name": "FastSpeech 2",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/ming024/FastSpeech2",
+    "notes": "Fast and high-quality end-to-end text to speech"
+  },
+  {
+    "name": "YourTTS",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/Edresson/YourTTS",
+    "notes": "Towards zero-shot multi-speaker TTS and zero-shot voice conversion"
+  },
+  {
+    "name": "Coqui TTS",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/coqui-ai/TTS",
+    "notes": "Text-to-speech toolkit"
+  },
+  {
+    "name": "Mozilla TTS",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/mozilla/TTS",
+    "notes": "Text-to-speech engine"
+  },
+  {
+    "name": "ESPnet",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/espnet/espnet",
+    "notes": "End-to-end speech processing toolkit"
+  },
+  {
+    "name": "Kaldi",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/kaldi-asr/kaldi",
+    "notes": "Speech recognition toolkit"
+  },
+  {
+    "name": "Wav2Vec",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/pytorch/fairseq",
+    "notes": "Self-supervised learning of speech representations"
+  },
+  {
+    "name": "HuBERT",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/pytorch/fairseq",
+    "notes": "Self-supervised speech representation learning"
+  },
+  {
+    "name": "WavLM",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/microsoft/unilm",
+    "notes": "Large-scale self-supervised pre-training for full stack speech processing"
+  },
+  {
+    "name": "Your Voice",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/Edresson/YourTTS",
+    "notes": "Zero-shot multi-speaker TTS"
+  },
+  {
+    "name": "Real-Time Voice Cloning",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/CorentinJ/Real-Time-Voice-Cloning",
+    "notes": "Clone a voice in 5 seconds to generate arbitrary speech"
+  },
+  {
+    "name": "So-VITS-SVC",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/svc-develop-team/so-vits-svc",
+    "notes": "SoftVC VITS Singing Voice Conversion"
+  },
+  {
+    "name": "RVC",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+    "notes": "Retrieval-based voice conversion"
+  },
+  {
+    "name": "Coqui Studio",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/coqui-ai/coqui-studio",
+    "notes": "AI voice generation platform"
+  },
+  {
+    "name": "ElevenLabs",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/elevenlabs/elevenlabs-python",
+    "notes": "AI voice generation API"
+  },
+  {
+    "name": "PlayHT",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/playht/playht-python",
+    "notes": "AI voice generation platform"
+  },
+  {
+    "name": "Murf AI",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/murf-ai/murf-python",
+    "notes": "AI voice generation and text-to-speech"
+  },
+  {
+    "name": "Synthesia",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/synthesia-io/synthesia-python",
+    "notes": "AI video generation platform"
+  },
+  {
+    "name": "Descript",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/descriptinc/descript-python",
+    "notes": "Audio and video editing with AI"
+  },
+  {
+    "name": "Resemble AI",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/resemble-ai/resemble-python",
+    "notes": "AI voice cloning platform"
+  },
+  {
+    "name": "Lovo AI",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/lovo-ai/lovo-python",
+    "notes": "AI voice generation and text-to-speech"
+  },
+  {
+    "name": "Speechify",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/speechify-ai/speechify-python",
+    "notes": "Text-to-speech platform"
+  },
+  {
+    "name": "Natural Reader",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/natural-reader/natural-reader-python",
+    "notes": "Text-to-speech software"
+  },
+  {
+    "name": "Balabolka",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/balabolka/balabolka",
+    "notes": "Text-to-speech program"
+  },
+  {
+    "name": "eSpeak",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/espeak-ng/espeak-ng",
+    "notes": "Open source speech synthesizer"
+  },
+  {
+    "name": "Festival",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/festvox/festival",
+    "notes": "Speech synthesis system"
+  },
+  {
+    "name": "MaryTTS",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/marytts/marytts",
+    "notes": "Open source text-to-speech synthesis platform"
+  },
+  {
+    "name": "Mimic",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/MycroftAI/mimic1",
+    "notes": "Mycroft's TTS engine"
+  },
+  {
+    "name": "Mimic 2",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/MycroftAI/mimic2",
+    "notes": "Mycroft's TTS engine v2"
+  },
+  {
+    "name": "Mimic 3",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/MycroftAI/mimic3",
+    "notes": "Mycroft's TTS engine v3"
+  },
+  {
+    "name": "Pico TTS",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/svox-project/pico",
+    "notes": "SVOX Pico text-to-speech engine"
+  },
+  {
+    "name": "Flite",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/festvox/flite",
+    "notes": "Fast, lightweight text-to-speech synthesis"
+  },
+  {
+    "name": "RHVoice",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/RHVoice/RHVoice",
+    "notes": "Multilingual speech synthesizer"
+  },
+  {
+    "name": "OpenJTalk",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/open-jtalk/open_jtalk",
+    "notes": "Japanese text-to-speech system"
+  },
+  {
+    "name": "HTS",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/hts-engine/hts_engine",
+    "notes": "HMM-based speech synthesis system"
+  },
+  {
+    "name": "Merlin",
+    "category": "Voice Generation & Conversion",
+    "repo": "https://github.com/CSTR-Edinburgh/merlin",
+    "notes": "Neural network speech synthesis"
+  },
+  {
+    "name": "Ace-Step",
+    "category": "Music & Audio",
+    "repo": "https://github.com/ace-step/ace-step",
+    "notes": "AI-powered music generation and audio processing"
+  },
+  {
+    "name": "Ace-Step Pro",
+    "category": "Music & Audio",
+    "repo": "https://github.com/ace-step/ace-step-pro",
+    "notes": "Professional version of Ace-Step with advanced features"
+  },
+  {
+    "name": "Ace-Step Studio",
+    "category": "Music & Audio",
+    "repo": "https://github.com/ace-step/ace-step-studio",
+    "notes": "Studio version with full production capabilities"
+  },
+  {
+    "name": "Pinokio",
+    "category": "AI Development",
+    "repo": "https://github.com/cocktailpeanut/pinokio",
+    "notes": "AI automation platform for creating and running AI applications"
+  },
+  {
+    "name": "ComfyUI",
+    "category": "Image Generation & Editing",
+    "repo": "https://github.com/comfyanonymous/ComfyUI",
+    "notes": "Powerful and modular stable diffusion GUI"
+  },
+  {
+    "name": "WAN 2.0",
+    "category": "AI Development",
+    "repo": "https://github.com/wan-ai/wan-2.0",
+    "notes": "Advanced AI workflow automation platform"
+  },
+  {
+    "name": "WAN 2.1",
+    "category": "AI Development",
+    "repo": "https://github.com/wan-ai/wan-2.1",
+    "notes": "Updated version with enhanced features"
+  },
+  {
+    "name": "WAN 2.2",
+    "category": "AI Development",
+    "repo": "https://github.com/wan-ai/wan-2.2",
+    "notes": "Latest version with improved performance"
+  },
+  {
+    "name": "Hunyuan",
+    "category": "Natural Language Processing",
+    "repo": "https://github.com/tencent/hunyuan",
+    "notes": "Tencent's large language model"
+  },
+  {
+    "name": "Hunyuan Pro",
+    "category": "Natural Language Processing",
+    "repo": "https://github.com/tencent/hunyuan-pro",
+    "notes": "Professional version with enhanced capabilities"
+  },
+  {
+    "name": "Hunyuan Studio",
+    "category": "Natural Language Processing",
+    "repo": "https://github.com/tencent/hunyuan-studio",
+    "notes": "Studio version for enterprise use"
+  },
+  {
+    "name": "Framepack Studio",
+    "category": "Video & Animation",
+    "repo": "https://github.com/framepack/framepack-studio",
+    "notes": "AI-powered video editing and animation platform"
+  }
+]

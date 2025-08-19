@@ -1,0 +1,447 @@
+[
+  {
+    "name": "AUTOMATIC1111 WebUI",
+    "category": "Image Generation",
+    "description": "Most popular Stable Diffusion WebUI with extensive extensions and community support",
+    "repo": "https://github.com/AUTOMATIC1111/stable-diffusion-webui.git",
+    "pip_dependencies": ["-r requirements_versions.txt"],
+    "start_command": "./webui.sh --listen --xformers --enable-insecure-extension-access",
+    "port": 7860,
+    "rating": 9.5
+  },
+  {
+    "name": "ComfyUI",
+    "category": "Image Generation",
+    "description": "Node-based UI for advanced Stable Diffusion workflows with powerful customization",
+    "repo": "https://github.com/comfyanonymous/ComfyUI.git",
+    "pip_dependencies": ["-r requirements.txt"],
+    "start_command": "python main.py --listen",
+    "port": 8188,
+    "rating": 9.3
+  },
+  {
+    "name": "Fooocus",
+    "category": "Image Generation",
+    "description": "Simplified Midjourney-style interface for Stable Diffusion with excellent defaults",
+    "repo": "https://github.com/lllyasviel/Fooocus.git",
+    "pip_dependencies": ["-r requirements_versions.txt"],
+    "start_command": "python launch.py --listen",
+    "port": 7865,
+    "rating": 9.1
+  },
+  {
+    "name": "InvokeAI",
+    "category": "Image Generation",
+    "description": "Professional-grade Stable Diffusion interface with advanced features",
+    "repo": "https://github.com/invoke-ai/InvokeAI.git",
+    "pip_dependencies": ["invokeai[xformers]"],
+    "start_command": "invokeai-web --host 0.0.0.0",
+    "port": 9090,
+    "rating": 8.9
+  },
+  {
+    "name": "Oobabooga Text Generation WebUI",
+    "category": "Text Generation",
+    "description": "Most popular interface for running large language models locally",
+    "repo": "https://github.com/oobabooga/text-generation-webui.git",
+    "pip_dependencies": ["-r requirements.txt"],
+    "start_command": "python server.py --listen --api",
+    "port": 7860,
+    "rating": 9.4
+  },
+  {
+    "name": "Ollama",
+    "category": "Text Generation",
+    "description": "Easy-to-use tool for running LLMs locally with simple API",
+    "repo": "https://github.com/ollama/ollama.git",
+    "pip_dependencies": ["ollama"],
+    "start_command": "ollama serve",
+    "port": 11434,
+    "rating": 9.2
+  },
+  {
+    "name": "LM Studio",
+    "category": "Text Generation",
+    "description": "User-friendly desktop app for running LLMs with intuitive interface. Not directly installable via Docker/pip; typically downloaded as a standalone application.",
+    "rating": 9.0
+  },
+  {
+    "name": "vLLM",
+    "category": "Text Generation",
+    "description": "High-throughput and memory-efficient inference engine for LLMs",
+    "repo": "https://github.com/vllm-project/vllm.git",
+    "pip_dependencies": ["vllm"],
+    "start_command": "python -m vllm.entrypoints.openai.api_server --host 0.0.0.0",
+    "port": 8000,
+    "rating": 8.8
+  },
+  {
+    "name": "OpenAI Whisper",
+    "category": "Audio Processing",
+    "description": "State-of-the-art speech recognition and transcription model",
+    "repo": "https://github.com/openai/whisper.git",
+    "pip_dependencies": ["openai-whisper"],
+    "notes": "Automatic speech recognition with multilingual support",
+    "rating": 9.6
+  },
+  {
+    "name": "Coqui TTS",
+    "category": "Audio Processing",
+    "description": "Advanced text-to-speech synthesis with voice cloning capabilities",
+    "repo": "https://github.com/coqui-ai/TTS.git",
+    "pip_dependencies": ["TTS"],
+    "start_command": "tts-server --host 0.0.0.0",
+    "port": 5002,
+    "rating": 8.7
+  },
+  {
+    "name": "Real-Time Voice Cloning",
+    "category": "Audio Processing",
+    "description": "Clone any voice in 5 seconds to generate arbitrary speech",
+    "repo": "https://github.com/CorentinJ/Real-Time-Voice-Cloning.git",
+    "pip_dependencies": ["-r requirements.txt"],
+    "notes": "Real-time voice synthesis and cloning",
+    "rating": 8.5
+  },
+  {
+    "name": "RVC (Retrieval-based Voice Conversion)",
+    "category": "Audio Processing",
+    "description": "High-quality voice conversion with minimal training data",
+    "repo": "https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI.git",
+    "pip_dependencies": ["-r requirements.txt"],
+    "start_command": "python infer-web.py",
+    "port": 7865,
+    "rating": 8.9
+  },
+  {
+    "name": "YOLO (You Only Look Once)",
+    "category": "Computer Vision",
+    "description": "Real-time object detection with excellent speed and accuracy",
+    "repo": "https://github.com/ultralytics/yolov5.git",
+    "pip_dependencies": ["-r requirements.txt"],
+    "notes": "State-of-the-art object detection",
+    "rating": 9.3
+  },
+  {
+    "name": "Detectron2",
+    "category": "Computer Vision",
+    "description": "Facebook's next-generation object detection and segmentation platform",
+    "repo": "https://github.com/facebookresearch/detectron2.git",
+    "pip_dependencies": ["detectron2"],
+    "notes": "Advanced computer vision research platform",
+    "rating": 9.1
+  },
+  {
+    "name": "OpenPose",
+    "category": "Computer Vision",
+    "description": "Real-time multi-person keypoint detection for pose estimation",
+    "repo": "https://github.com/CMU-Perceptual-Computing-Lab/openpose.git",
+    "pip_dependencies": ["openpose-python"],
+    "notes": "Human pose estimation and tracking",
+    "rating": 8.8
+  },
+  {
+    "name": "MediaPipe",
+    "category": "Computer Vision",
+    "description": "Google's framework for building multimodal applied ML pipelines",
+    "repo": "https://github.com/google/mediapipe.git",
+    "pip_dependencies": ["mediapipe"],
+    "notes": "Cross-platform ML solutions for live and streaming media",
+    "rating": 9.0
+  },
+  {
+    "name": "Face Recognition",
+    "category": "Computer Vision",
+    "description": "World's simplest face recognition library for Python",
+    "repo": "https://github.com/ageitgey/face_recognition.git",
+    "pip_dependencies": ["face_recognition"],
+    "notes": "Easy-to-use face recognition with deep learning",
+    "rating": 8.9
+  },
+  {
+    "name": "DeepFace",
+    "category": "Computer Vision",
+    "description": "Lightweight face recognition and analysis library",
+    "repo": "https://github.com/serengil/deepface.git",
+    "pip_dependencies": ["deepface"],
+    "notes": "Face recognition, verification, and analysis",
+    "rating": 8.6
+  },
+  {
+    "name": "Stable Video Diffusion",
+    "category": "Video Generation",
+    "description": "Generate high-quality videos from images using diffusion models",
+    "repo": "https://github.com/Stability-AI/generative-models.git",
+    "pip_dependencies": ["-r requirements/pt2.txt"],
+    "notes": "State-of-the-art video generation from Stability AI",
+    "rating": 8.7
+  },
+  {
+    "name": "AnimateDiff",
+    "category": "Video Generation",
+    "description": "Animate your personalized text-to-image diffusion models",
+    "repo": "https://github.com/guoyww/AnimateDiff.git",
+    "pip_dependencies": ["-r requirements.txt"],
+    "notes": "Turn static images into animations",
+    "rating": 8.5
+  },
+  {
+    "name": "Text2Video-Zero",
+    "category": "Video Generation",
+    "description": "Text-to-video generation without any training",
+    "repo": "https://github.com/Picsart-AI-Research/Text2Video-Zero.git",
+    "pip_dependencies": ["-r requirements.txt"],
+    "notes": "Zero-shot text-to-video generation",
+    "rating": 8.3
+  },
+  {
+    "name": "Real-ESRGAN",
+    "category": "Image Enhancement",
+    "description": "Practical algorithms for general image/video restoration",
+    "repo": "https://github.com/xinntao/Real-ESRGAN.git",
+    "pip_dependencies": ["realesrgan"],
+    "notes": "AI-powered image upscaling and enhancement",
+    "rating": 9.2
+  },
+  {
+    "name": "CodeFormer",
+    "category": "Image Enhancement",
+    "description": "Robust face restoration algorithm for old photos and AI-generated faces",
+    "repo": "https://github.com/sczhou/CodeFormer.git",
+    "pip_dependencies": ["-r requirements.txt"],
+    "notes": "Face restoration and enhancement",
+    "rating": 8.8
+  },
+  {
+    "name": "GFPGAN",
+    "category": "Image Enhancement",
+    "description": "Practical algorithm for real-world face restoration",
+    "repo": "https://github.com/TencentARC/GFPGAN.git",
+    "pip_dependencies": ["gfpgan"],
+    "notes": "Blind face restoration with generative facial prior",
+    "rating": 8.6
+  },
+  {
+    "name": "ControlNet",
+    "category": "Image Generation",
+    "description": "Adding conditional control to text-to-image diffusion models",
+    "repo": "https://github.com/lllyasviel/ControlNet.git",
+    "pip_dependencies": ["-r requirements.txt"],
+    "notes": "Precise control over image generation",
+    "rating": 9.4
+  },
+  {
+    "name": "IP-Adapter",
+    "category": "Image Generation",
+    "description": "Text compatible image prompt adapter for text-to-image diffusion models",
+    "repo": "https://github.com/tencent-ailab/IP-Adapter.git",
+    "pip_dependencies": ["-r requirements.txt"],
+    "notes": "Image prompting for diffusion models",
+    "rating": 8.7
+  },
+  {
+    "name": "Segment Anything Model (SAM)",
+    "category": "Computer Vision",
+    "description": "Promptable segmentation system with zero-shot generalization",
+    "repo": "https://github.com/facebookresearch/segment-anything.git",
+    "pip_dependencies": ["segment-anything"],
+    "notes": "Universal image segmentation",
+    "rating": 9.5
+  },
+  {
+    "name": "Grounding DINO",
+    "category": "Computer Vision",
+    "description": "Open-set object detection with natural language",
+    "repo": "https://github.com/IDEA-Research/GroundingDINO.git",
+    "pip_dependencies": ["-r requirements.txt"],
+    "notes": "Text-prompted object detection",
+    "rating": 8.9
+  },
+  {
+    "name": "LangChain",
+    "category": "AI Development",
+    "description": "Framework for developing applications powered by language models",
+    "repo": "https://github.com/langchain-ai/langchain.git",
+    "pip_dependencies": ["langchain"],
+    "notes": "Build LLM-powered applications",
+    "rating": 9.1
+  },
+  {
+    "name": "AutoGPT",
+    "category": "AI Development",
+    "description": "Autonomous GPT-4 experiment to make GPT-4 fully autonomous",
+    "repo": "https://github.com/Significant-Gravitas/AutoGPT.git",
+    "pip_dependencies": ["-r requirements.txt"],
+    "notes": "Autonomous AI agent",
+    "rating": 8.4
+  },
+  {
+    "name": "GPT4All",
+    "category": "Text Generation",
+    "description": "Open-source ecosystem of on-device large language models",
+    "repo": "https://github.com/nomic-ai/gpt4all.git",
+    "pip_dependencies": ["gpt4all"],
+    "notes": "Local LLM ecosystem",
+    "rating": 8.7
+  },
+  {
+    "name": "LocalAI",
+    "category": "AI Development",
+    "description": "Self-hosted, community-driven, local OpenAI-compatible API",
+    "repo": "https://github.com/mudler/LocalAI.git",
+    "pip_dependencies": ["localai"],
+    "start_command": "local-ai",
+    "port": 8080,
+    "rating": 8.8
+  },
+  {
+    "name": "Pinokio",
+    "category": "AI Development",
+    "description": "AI automation platform for creating and running AI applications. Not directly installable via Docker/pip; typically downloaded as a standalone application.",
+    "rating": 8.5
+  },
+  {
+    "name": "Jupyter Lab",
+    "category": "Development Tools",
+    "description": "Next-generation web-based user interface for Project Jupyter",
+    "repo": "https://github.com/jupyterlab/jupyterlab.git",
+    "pip_dependencies": ["jupyterlab"],
+    "start_command": "jupyter lab --ip=0.0.0.0 --allow-root",
+    "port": 8888,
+    "rating": 9.3
+  },
+  {
+    "name": "Gradio",
+    "category": "Development Tools",
+    "description": "Build and share delightful machine learning apps",
+    "repo": "https://github.com/gradio-app/gradio.git",
+    "pip_dependencies": ["gradio"],
+    "notes": "Create ML demos and web apps",
+    "rating": 9.0
+  },
+  {
+    "name": "Streamlit",
+    "category": "Development Tools",
+    "description": "Turns data scripts into shareable web apps in minutes",
+    "repo": "https://github.com/streamlit/streamlit.git",
+    "pip_dependencies": ["streamlit"],
+    "start_command": "streamlit run app.py --server.address 0.0.0.0",
+    "port": 8501,
+    "rating": 8.9
+  },
+  {
+    "name": "MLflow",
+    "category": "Development Tools",
+    "description": "Open source platform for the machine learning lifecycle",
+    "repo": "https://github.com/mlflow/mlflow.git",
+    "pip_dependencies": ["mlflow"],
+    "start_command": "mlflow ui --host 0.0.0.0",
+    "port": 5000,
+    "rating": 8.7
+  },
+  {
+    "name": "Weights & Biases",
+    "category": "Development Tools",
+    "description": "Developer tools for machine learning experiment tracking",
+    "repo": "https://github.com/wandb/wandb.git",
+    "pip_dependencies": ["wandb"],
+    "notes": "ML experiment tracking and visualization",
+    "rating": 8.8
+  },
+  {
+    "name": "TensorBoard",
+    "category": "Development Tools",
+    "description": "TensorFlow's visualization toolkit",
+    "repo": "https://github.com/tensorflow/tensorboard.git",
+    "pip_dependencies": ["tensorboard"],
+    "start_command": "tensorboard --logdir=logs --host 0.0.0.0",
+    "port": 6006,
+    "rating": 8.6
+  },
+  {
+    "name": "Hugging Face Transformers",
+    "category": "Natural Language Processing",
+    "description": "State-of-the-art machine learning for PyTorch, TensorFlow, and JAX",
+    "repo": "https://github.com/huggingface/transformers.git",
+    "pip_dependencies": ["transformers[torch]"],
+    "notes": "Pre-trained transformer models",
+    "rating": 9.7
+  },
+  {
+    "name": "spaCy",
+    "category": "Natural Language Processing",
+    "description": "Industrial-strength natural language processing in Python",
+    "repo": "https://github.com/explosion/spaCy.git",
+    "pip_dependencies": ["spacy"],
+    "notes": "Advanced NLP library",
+    "rating": 9.2
+  },
+  {
+    "name": "NLTK",
+    "category": "Natural Language Processing",
+    "description": "Natural Language Toolkit for Python",
+    "repo": "https://github.com/nltk/nltk.git",
+    "pip_dependencies": ["nltk"],
+    "notes": "Comprehensive NLP library",
+    "rating": 8.8
+  },
+  {
+    "name": "Gensim",
+    "category": "Natural Language Processing",
+    "description": "Topic modeling and document similarity analysis",
+    "repo": "https://github.com/RaRe-Technologies/gensim.git",
+    "pip_dependencies": ["gensim"],
+    "notes": "Topic modeling and word embeddings",
+    "rating": 8.5
+  },
+  {
+    "name": "FastAPI",
+    "category": "Development Tools",
+    "description": "Modern, fast web framework for building APIs with Python",
+    "repo": "https://github.com/tiangolo/fastapi.git",
+    "pip_dependencies": ["fastapi[all]"],
+    "start_command": "uvicorn main:app --host 0.0.0.0 --port 8000",
+    "port": 8000,
+    "rating": 9.4
+  },
+  {
+    "name": "Flask",
+    "category": "Development Tools",
+    "description": "Lightweight WSGI web application framework",
+    "repo": "https://github.com/pallets/flask.git",
+    "pip_dependencies": ["flask"],
+    "start_command": "flask run --host=0.0.0.0",
+    "port": 5000,
+    "rating": 8.9
+  },
+  {
+    "name": "Django",
+    "category": "Development Tools",
+    "description": "High-level Python web framework",
+    "repo": "https://github.com/django/django.git",
+    "pip_dependencies": ["django"],
+    "start_command": "python manage.py runserver 0.0.0.0:8000",
+    "port": 8000,
+    "rating": 9.1
+  },
+  {
+    "name": "Reflex",
+    "category": "AI Development",
+    "description": "Performant, customizable web apps in pure Python. Build full-stack web apps for AI applications.",
+    "repo": "https://github.com/reflex-dev/reflex.git",
+    "pip_dependencies": ["reflex"],
+    "start_command": "reflex run",
+    "port": 3000,
+    "rating": 9.0
+  },
+  {
+    "name": "Marimo",
+    "category": "Development Tools",
+    "description": "A reactive Python notebook that's reproducible, git-friendly, and deployable as scripts or apps. AI-native with features like AI assistants and code generation.",
+    "repo": "https://github.com/marimo-team/marimo.git",
+    "pip_dependencies": ["marimo"],
+    "start_command": "marimo run your_notebook.py --host 0.0.0.0 --port 2718",
+    "port": 2718,
+    "rating": 8.9
+  }
+]

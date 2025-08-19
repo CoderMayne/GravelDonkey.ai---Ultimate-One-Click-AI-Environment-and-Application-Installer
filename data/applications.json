@@ -1,0 +1,277 @@
+[
+    {
+        "category": "Image Generation",
+        "subcategory": "Stable Diffusion",
+        "name": "AUTOMATIC1111 WebUI",
+        "repo": "https://github.com/AUTOMATIC1111/stable-diffusion-webui.git",
+        "pip_dependencies": ["-r requirements_versions.txt"],
+        "start_command": "./webui.sh --listen --xformers --enable-insecure-extension-access",
+        "port": 7860,
+        "notes": "Most popular SD WebUI with extensive extensions",
+        "post_install_commands": ["mkdir -p models/Stable-diffusion"]
+    },
+    {
+        "category": "Image Generation",
+        "subcategory": "Stable Diffusion",
+        "name": "ComfyUI",
+        "repo": "https://github.com/comfyanonymous/ComfyUI.git",
+        "pip_dependencies": ["-r requirements.txt"],
+        "start_command": "python main.py --listen",
+        "port": 8188,
+        "notes": "Node-based UI for advanced workflows"
+    },
+    {
+        "category": "Image Generation",
+        "subcategory": "Stable Diffusion",
+        "name": "InvokeAI",
+        "repo": "https://github.com/invoke-ai/InvokeAI.git",
+        "pip_dependencies": ["invokeai[xformers]"],
+        "start_command": "invokeai-web --host 0.0.0.0",
+        "port": 9090,
+        "notes": "Professional-grade SD interface"
+    },
+    {
+        "category": "Image Generation",
+        "subcategory": "Stable Diffusion",
+        "name": "Fooocus",
+        "repo": "https://github.com/lllyasviel/Fooocus.git",
+        "pip_dependencies": ["-r requirements_versions.txt"],
+        "start_command": "python launch.py --listen",
+        "port": 7865,
+        "notes": "Simplified Midjourney-style interface"
+    },
+    {
+        "category": "Image Generation",
+        "subcategory": "Stable Diffusion",
+        "name": "SD.Next",
+        "repo": "https://github.com/vladmandic/automatic.git",
+        "pip_dependencies": ["-r requirements.txt"],
+        "start_command": "./webui.sh --listen",
+        "port": 7860,
+        "notes": "Enhanced fork of AUTOMATIC1111"
+    },
+    {
+        "category": "Image Generation",
+        "subcategory": "Stable Diffusion",
+        "name": "StableSwarmUI",
+        "repo": "https://github.com/Stability-AI/StableSwarmUI.git",
+        "pip_dependencies": ["-r src/requirements.txt"],
+        "start_command": "./launch-linux.sh --host 0.0.0.0",
+        "port": 7801,
+        "notes": "Official Stability AI interface"
+    },
+    {
+        "category": "Image Generation",
+        "subcategory": "Alternative Models",
+        "name": "Kandinsky WebUI",
+        "repo": "https://github.com/ai-forever/Kandinsky-2.git",
+        "pip_dependencies": ["kandinsky2", "transformers", "accelerate"],
+        "start_command": "python app.py --host 0.0.0.0",
+        "port": 7860,
+        "notes": "Russian text-to-image model"
+    },
+    {
+        "category": "Image Generation",
+        "subcategory": "Alternative Models",
+        "name": "DeepFloyd IF",
+        "repo": "https://github.com/deep-floyd/IF.git",
+        "pip_dependencies": ["deepfloyd-if", "xformers"],
+        "start_command": "python gradio_app.py",
+        "port": 7860,
+        "notes": "Cascaded pixel diffusion model"
+    },
+    {
+        "category": "Image Generation",
+        "subcategory": "Alternative Models",
+        "name": "Wuerstchen WebUI",
+        "repo": "https://github.com/dome272/Wuerstchen.git",
+        "pip_dependencies": ["-r requirements.txt"],
+        "start_command": "python app.py --host 0.0.0.0",
+        "port": 7860,
+        "notes": "Efficient latent diffusion model"
+    },
+    {
+        "category": "Image Generation",
+        "subcategory": "Alternative Models",
+        "name": "PixArt-α WebUI",
+        "repo": "https://github.com/PixArt-alpha/PixArt-alpha.git",
+        "pip_dependencies": ["-r requirements.txt"],
+        "start_command": "python app.py",
+        "port": 7860,
+        "notes": "Fast training diffusion transformer"
+    },
+    {
+        "category": "Image Generation",
+        "subcategory": "Alternative Models",
+        "name": "Playground v2.5",
+        "repo": "https://github.com/Playground-AI/playground-v2.5.git",
+        "pip_dependencies": ["diffusers", "transformers", "accelerate"],
+        "start_command": "python app.py",
+        "port": 7860,
+        "notes": "Advanced aesthetic model"
+    },
+    {
+        "category": "Image Generation",
+        "subcategory": "Upscaling & Enhancement",
+        "name": "Real-ESRGAN",
+        "repo": "https://github.com/xinntao/Real-ESRGAN.git",
+        "pip_dependencies": ["realesrgan"],
+        "start_command": "python inference_realesrgan.py",
+        "notes": "AI image upscaler"
+    },
+    {
+        "category": "Image Generation",
+        "subcategory": "Upscaling & Enhancement",
+        "name": "ESRGAN",
+        "repo": "https://github.com/xinntao/ESRGAN.git",
+        "pip_dependencies": ["-r requirements.txt"],
+        "notes": "Enhanced super-resolution GAN"
+    },
+    {
+        "category": "Image Generation",
+        "subcategory": "Upscaling & Enhancement",
+        "name": "SwinIR",
+        "repo": "https://github.com/JingyunLiang/SwinIR.git",
+        "pip_dependencies": ["-r requirements.txt"],
+        "notes": "Transformer-based restoration"
+    },
+    {
+        "category": "Image Generation",
+        "subcategory": "Upscaling & Enhancement",
+        "name": "CodeFormer",
+        "repo": "https://github.com/sczhou/CodeFormer.git",
+        "pip_dependencies": ["-r requirements.txt"],
+        "notes": "Face restoration and enhancement"
+    },
+    {
+        "category": "Image Generation",
+        "subcategory": "Upscaling & Enhancement",
+        "name": "GFPGAN",
+        "repo": "https://github.com/TencentARC/GFPGAN.git",
+        "pip_dependencies": ["gfpgan"],
+        "notes": "Blind face restoration"
+    },
+    {
+        "category": "Image Generation",
+        "subcategory": "Video Generation",
+        "name": "Stable Video Diffusion",
+        "repo": "https://github.com/Stability-AI/generative-models.git",
+        "pip_dependencies": ["-r requirements/pt2.txt"],
+        "start_command": "python scripts/demo/video_sampling.py",
+        "notes": "Video generation from images"
+    },
+    {
+        "category": "Image Generation",
+        "subcategory": "Video Generation",
+        "name": "AnimateDiff",
+        "repo": "https://github.com/guoyww/AnimateDiff.git",
+        "pip_dependencies": ["-r requirements.txt"],
+        "notes": "Animate static images"
+    },
+    {
+        "category": "Image Generation",
+        "subcategory": "Video Generation",
+        "name": "Text2Video-Zero",
+        "repo": "https://github.com/Picsart-AI-Research/Text2Video-Zero.git",
+        "pip_dependencies": ["-r requirements.txt"],
+        "notes": "Text-to-video without training"
+    },
+    {
+        "category": "Image Generation",
+        "subcategory": "Video Generation",
+        "name": "Zeroscope",
+        "repo": "https://github.com/camenduru/zeroscope-colab.git",
+        "pip_dependencies": ["diffusers", "transformers"],
+        "notes": "Text-to-video generation"
+    },
+    {
+        "category": "Image Generation",
+        "subcategory": "Video Generation",
+        "name": "ModelScope Text2Video",
+        "repo": "https://github.com/modelscope/modelscope.git",
+        "pip_dependencies": ["modelscope"],
+        "notes": "Chinese text-to-video model"
+    },
+    {
+        "category": "Large Language Models",
+        "subcategory": "Chat Interfaces",
+        "name": "Oobabooga Text Generation WebUI",
+        "repo": "https://github.com/oobabooga/text-generation-webui.git",
+        "pip_dependencies": ["-r requirements.txt"],
+        "start_command": "python server.py --listen --api",
+        "port": 7860,
+        "notes": "Most popular LLM interface"
+    },
+    {
+        "category": "Large Language Models",
+        "subcategory": "Chat Interfaces",
+        "name": "Kobold.cpp",
+        "repo": "https://github.com/LostRuins/koboldcpp.git",
+        "pip_dependencies": [],
+        "start_command": "python koboldcpp.py --host 0.0.0.0",
+        "port": 5001,
+        "notes": "Fast C++ GGML/GGUF backend"
+    },
+    {
+        "category": "Large Language Models",
+        "subcategory": "Chat Interfaces",
+        "name": "Text Generation Inference (TGI)",
+        "repo": "https.github.com/huggingface/text-generation-inference.git",
+        "pip_dependencies": ["text-generation"],
+        "start_command": "text-generation-launcher",
+        "port": 3000,
+        "notes": "HuggingFace production server"
+    },
+    {
+        "category": "Large Language Models",
+        "subcategory": "Chat Interfaces",
+        "name": "vLLM",
+        "repo": "https://github.com/vllm-project/vllm.git",
+        "pip_dependencies": ["vllm"],
+        "start_command": "python -m vllm.entrypoints.openai.api_server --host 0.0.0.0",
+        "port": 8000,
+        "notes": "High-throughput LLM serving"
+    },
+    {
+        "category": "Large Language Models",
+        "subcategory": "Chat Interfaces",
+        "name": "LM Studio Server",
+        "repo": "https://github.com/lmstudio-ai/lms.git",
+        "pip_dependencies": ["lmstudio"],
+        "start_command": "lms server --host 0.0.0.0",
+        "port": 1234,
+        "notes": "User-friendly LLM server"
+    },
+    {
+        "category": "Large Language Models",
+        "subcategory": "Chat Interfaces",
+        "name": "Ollama Web UI",
+        "repo": "https://github.com/ollama-webui/ollama-webui.git",
+        "pip_dependencies": ["-r requirements.txt"],
+        "start_command": "python main.py --host 0.0.0.0",
+        "port": 8080,
+        "notes": "Modern chat interface for Ollama"
+    },
+    {
+        "category": "Large Language Models",
+        "subcategory": "Specialized LLMs",
+        "name": "CodeLlama Interface",
+        "repo": "https://github.com/facebookresearch/codellama.git",
+        "pip_dependencies": ["torch", "transformers", "accelerate"],
+        "notes": "Code generation specialist"
+    },
+    {
+        "category": "Large Language Models",
+        "subcategory": "Specialized LLMs",
+        "name": "WizardCoder WebUI",
+        "repo": "https.github.com/nlpxucan/WizardLM.git",
+        "pip_dependencies": ["transformers", "torch"],
+        "notes": "Advanced code generation"
+    },
+    {
+        "category": "Large Language Models",
+        "subcategory": "Specialized LLMs",
+        "name": "Phind CodeLlama",
+        "repo": "https://github.com/Phind-Technologies/Phind-CodeLlama.git"
+    }
+]
