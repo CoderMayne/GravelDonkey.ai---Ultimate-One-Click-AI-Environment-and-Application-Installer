@@ -33,7 +33,7 @@ The application includes a "Prerequisites Check" tab that can help you verify yo
 
 1. **Clone the repository:**
   Create a folder somewhere on your PC. Then use Terminal in that Folder
-   git clone [https://github.com/yourusername/ai-installer.git](https://github.com/CoderMayne/GravelDonkey.ai---Ultimate-One-Click-AI-Environment-and-Application-Installer?tab=readme-ov-)
+   git clone https://github.com/CoderMayne/GravelDonkey.ai---Ultimate-One-Click-AI-Environment-and-Application-Installer.git
    In Terminal.... cd (folder you created)
    ```
 
