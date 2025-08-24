@@ -32,9 +32,9 @@ The application includes a "Prerequisites Check" tab that can help you verify yo
 ## Installation
 
 1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/ai-installer.git
-   cd ai-installer
+  Create a folder somewhere on your PC. Then use Terminal in that Folder
+   git clone [https://github.com/yourusername/ai-installer.git](https://github.com/CoderMayne/GravelDonkey.ai---Ultimate-One-Click-AI-Environment-and-Application-Installer?tab=readme-ov-)
+   In Terminal.... cd (folder you created)
    ```
 
 2. **Create a Python virtual environment (Recommended):**
